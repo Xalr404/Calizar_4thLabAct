@@ -1,0 +1,119 @@
+body{
+    background-color: #F6F0D7;
+    color: rgb(37, 37, 37);
+    
+}
+
+.custom-form{
+    background-color: #C5D89D !important;
+    box-shadow: 2px 2px 4px 4px rgba(128, 128, 128, 0.192);
+}
+
+button{
+    background-color: #89be82;
+    border:0px solid white; 
+    color: white !important;
+    box-shadow: 2px 2px 4px 4px rgba(128, 128, 128, 0.199);
+}
+
+button:hover{
+    background-color: #89986dce;
+}
+
+input[type]{
+    border-radius: 5px;
+    border: 0px solid white;
+    outline: none;
+    padding: 3px;
+}
+
+textarea{
+    outline: none;
+    border:0px solid white;
+    border-radius: 5px;
+    box-shadow: 2px 2px 4px 4px rgba(128, 128, 128, 0.103);
+}
+
+
+/* Profile */
+
+:root {
+            --primary-color: #4f46e5;
+            --accent-color: #6366f1;
+            --bg-color: #f8fafc;
+        }
+
+        
+        .cover {
+            background: linear-gradient(135deg, #4f46e5 0%, #7c3aed 100%);
+            height: 280px;
+            border-bottom-left-radius: 50% 20%;
+            border-bottom-right-radius: 50% 20%;
+        }
+
+      
+        .profile-header {
+            margin-top: -90px;
+            margin-bottom: 30px;
+        }
+
+        .profile-img {
+            width: 170px;
+            height: 170px;
+            object-fit: cover;
+            border-radius: 50%;
+            border: 6px solid white;
+            box-shadow: 0 10px 25px rgba(0,0,0,0.1);
+            transition: transform 0.3s ease;
+        }
+
+        .profile-img:hover {
+            transform: scale(1.03);
+        }
+
+        
+        .section-card {
+            border: none;
+            border-radius: 16px;
+            box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+            margin-bottom: 24px;
+            background: #ffffff;
+        }
+
+        .card-title {
+            font-weight: 700;
+            color: var(--primary-color);
+            border-bottom: 2px solid #f1f5f9;
+            padding-bottom: 15px;
+            margin-bottom: 20px;
+        }
+
+        .info-label {
+            font-weight: 600;
+            color: #64748b;
+            text-transform: uppercase;
+            font-size: 0.8rem;
+            letter-spacing: 0.05em;
+        }
+
+        .info-value {
+            font-size: 1.1rem;
+            color: #1e293b;
+        }
+
+        /* Bio/Hobby Quote Style */
+        .quote-box {
+            font-style: italic;
+            color: #475569;
+            position: relative;
+            padding: 10px 20px;
+        }
+
+        .gallery-img {
+            border-radius: 12px;
+            transition: opacity 0.3s;
+        }
+
+        .gallery-img:hover {
+            opacity: 0.9;
+        }
